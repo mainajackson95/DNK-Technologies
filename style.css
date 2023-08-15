@@ -11,17 +11,3 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-
-.nav-links {
-    flex: 1;
-    text-align: right;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-}
-
-li {
-    margin-right: 22px;
-}
