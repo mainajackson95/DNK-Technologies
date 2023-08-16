@@ -3,28 +3,189 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DNK Technologies - Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/a80e2df8e5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a80e2df8e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="hero">
+    <section class="header">
       <nav>
-        <div class="navbar">
-          <!-------------------- Add logo here ----------------------------->
-          <img src="" alt="" />
+        <a href="#" class="logo"><h1>DNK Technologies</h1></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
 
-          <div class="navbar-links-list">
-            <ul>
-              <li class="navbar-link"><i class="far fa-home">HOME</i></li>
-              <li class="navbar-link"> <i class="far fa-clone">SERVICES</i></li>
-              <li class="navbar-link"> <i class="far fa-user">ABOUT US</i></li>
-              <li class="navbar-link"><i class="fas fa-phone-square-alt">CONTACT US</i></li>
-            </ul>
+      <div class="text-box">
+        <h1>Welcome To DNK Technologies</h1>
+        <p>The Best Laptop and Computer Repair Shop in Kenya</p>
+        <a href="#" class="hero-btn">Visit Us To Know More.</a>
+      </div>
+    </section>
+
+    <!------------------------- Services -------------------------->
+    <section class="services">
+      <h1>Services We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Dolor suscipit, minima deleniti aperiam cumque alias, ipsa,
+        facere et consequatur porro magni? Obcaecati voluptate ullam
+        vero fuga aspernatur libero, quia ut!</p>
+
+        <div class="row">
+          <div class="services-col">
+            <h3>Software Installations</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Necessitatibus officia cum commodi laborum aliquid quidem 
+              explicabo, omnis fuga autem ad doloribus voluptatibus 
+              consequatur illo deserunt ullam illum inventore quibusdam rem.</p>
+          </div>
+          <div class="services-col">
+            <h3>Hardware Repairs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Necessitatibus officia cum commodi laborum aliquid quidem 
+              explicabo, omnis fuga autem ad doloribus voluptatibus 
+              consequatur illo deserunt ullam illum inventore quibusdam rem.</p>
+          </div>
+          <div class="services-col">
+            <h3>Other Services</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Necessitatibus officia cum commodi laborum aliquid quidem 
+              explicabo, omnis fuga autem ad doloribus voluptatibus 
+              consequatur illo deserunt ullam illum inventore quibusdam rem.</p>
           </div>
         </div>
-      </nav>
-    </div>
+    </section>
+
+    <!------------------------- shop ------------------------------>
+
+    <section class="shop">
+      <h1>Our Shop</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Iusto necessitatibus doloremque optio, ab vero quisquam eum 
+        aliquid hic eveniet cupiditate autem maxime aperiam quasi ipsum 
+        soluta quidem beatae dicta quod!</p>
+      
+        <div class="row">
+          <div class="shop-col">
+            <img src="images/domenico-loia-hGV2TfOh0ns-unsplash.jpg">
+            <div class="layer">
+              <h3>ACCESSIBLE</h3>
+            </div>
+          </div>
+          <div class="shop-col">
+            <img src="images/domenico-loia-hGV2TfOh0ns-unsplash.jpg">
+            <div class="layer">
+              <h3>RELIABLE</h3>
+            </div>
+          </div>
+          <div class="shop-col">
+            <img src="images/domenico-loia-hGV2TfOh0ns-unsplash.jpg">
+            <div class="layer">
+              <h3>EFFECIENT</h3>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+
+    <!--------------------- Testimonials ---------------------------->
+    <section class="testimonials">
+      <h1>What Our Amazing Clients Say</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Modi blanditiis exercitationem non sit, iste velit accusantium 
+        quo laboriosam error in, quas libero eligendi, aliquam deleniti? 
+        Necessitatibus omnis quam officia facere?</p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/carlos-muza-hpjSkU2UYSU-unsplash.jpg">
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Natus aliquid laudantium nulla recusandae eligendi excepturi 
+              amet culpa odit atque dolores, asperiores magni autem sint laborum, 
+              adipisci iure distinctio, dolor dolorem.</p>
+              <h3>Kimani Wakioi</h3>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/carlos-muza-hpjSkU2UYSU-unsplash.jpg">
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Natus aliquid laudantium nulla recusandae eligendi excepturi 
+              amet culpa odit atque dolores, asperiores magni autem sint laborum, 
+              adipisci iure distinctio, dolor dolorem.</p>
+              <h3>John Demetthew</h3>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------- Call Us -------------------------->
+    <section class="cu">
+      <h1>Get In Touch</h1>
+      <a href="#"class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!------------------------ Footer ------------------------------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Vel nemo dignissimos quam, hic sunt quod veniam deleniti 
+        ducimus nobis culpa <br> eius officiis, facilis odio? Veniam 
+        nisi repellendus hic minus libero.</p>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa fa-heart-o"></i> KaJack Piper</p>
+    </section>
+
+    <!---------------- JavaScript for Toggle Menu ---------------->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>
